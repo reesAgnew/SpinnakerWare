@@ -1,0 +1,96 @@
+nav {
+	border: 0.5rem Solid #0D447A;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 500;
+	background-color: white;
+}
+
+
+
+#logo{
+	height: 7rem;
+}
+
+
+.txt{
+	text-decoration: none;
+	background-image: linear-gradient(currentColor, currentColor);
+	background-position: 0% 100%;
+	background-repeat: no-repeat;
+	background-size: 0% 2px;
+	transition: background-size .3s;
+}
+
+.txt:hover, .txt:focus {
+	background-size: 100% 2px;
+}
+.txt2{
+	text-decoration: none;
+	background-image: linear-gradient(currentColor, currentColor);
+	background-position: 0% 100%;
+	background-repeat: no-repeat;
+	background-size: 0% 2px;
+	transition: background-size .3s;
+}
+
+.txt2:hover, .txt2:focus {
+	background-size: 100% 2px;
+} 
+
+body{
+	background-image: url("../images/eyeglasses-679696.jpg");
+	padding-top: 175px;
+	background-attachment: fixed;
+}
+
+
+
+.support_content{
+	background: white;
+}
+
+.faqImg {
+	width: 100%;
+  }
+
+.faqImgSm {
+	width: 50%;
+  }
+
+.faqImgMd {
+	width: 75%;
+}
+
+
+
+#bottomText{
+	text-align: center;
+	color: white;
+	background-color: black;
+	padding: 20px;
+}
+
+#bottom_container{
+	padding-bottom: 0px;
+}
+
+.container{
+	padding-bottom: 20px;
+}
+
+/* .support_display{
+	border: 0.25rem Solid #0D447A;
+} */
+
+
+table {
+	border-collapse: collapse;
+}
+
+.table_tr_td {
+	border: 1px solid black;
+}
+
+.table_tr_th {
+	border: 1px solid black;
+}

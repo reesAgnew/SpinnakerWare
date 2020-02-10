@@ -1,0 +1,256 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>OD Office Pro - SpinnakerWare Inc.</title>
+
+    <link rel="stylesheet" type="text/css" href="./css/spinnakerware.css">
+    <link rel="stylesheet" type="text/css" href="./css/fontAwesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:500,700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- ***HEADER*** -->
+
+    <nav class="navbar navbar-expand-md navbar-light fixed-top">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link txt" href="news.html">NEWS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link txt" href="features.html">FEATURES</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle txt2" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">FAQ</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item txt" href="appointments.html">Appointments</a>
+                        <a class="dropdown-item txt" href="college_of_optomestristsFAQ.html">College of Optometrists of
+                            Ontario</a>
+                        <a class="dropdown-item txt" href="devices.html">Devices</a>
+                        <a class="dropdown-item txt" href="exams.html">Exams</a>
+                        <a class="dropdown-item txt" href="management.html">Management</a>
+                        <a class="dropdown-item txt" href="patients.html">Patients</a>
+                        <a class="dropdown-item txt" href="printing.html">Printing</a>
+                        <a class="dropdown-item txt" href="security.html">Security</a>
+                        <a class="dropdown-item txt" href="setup.html">Setup</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="mx-auto order-0">
+            <a class="navbar-brand mx-auto" href="home.html"><img src="images\ODofficepro.jpg" id="logo"></a>
+        </div>
+        <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+            <ul class="navbar-nav ml-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link txt" href="support.html">SUPPORT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link txt" href="testimonials.html">TESTIMONIALS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link txt" href="pricing.html">PRICING</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ***CONTENT*** -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col"></div>
+            <div class="col-10 support_content support_display">
+                <h1 id="appointments1">Appointments</h1>
+                <p><span>&#8226;</span><a href="#appointments1">Why is my 'Year + 1 day' off?</a></p>
+                <p><span>&#8226;</span><a href="#appointments2">Why is my Visual Fields appointment not showing up in
+                        Pretest?</a></p>
+                <p><span>&#8226;</span><a href="#appointments3">How do I change the templates for Call List E-Mails?</a>
+                </p>
+            </div>
+            <div class="col"></div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col"></div>
+            <div class="col-10 support_content support_display">
+                <h1>1 Year + 1 day / Leap Year</h1>
+                <h5>The Problem</h5>
+                <p>Every four years (not coincidentally) we see a spike in calls related to pre-booking the next
+                    appointment,
+                    when using the ‘1 year + 1 day’ option. The confusion happens when pre-booking crosses over February
+                    29th
+                    day in a leap year.</p>
+                <h5>Scenario 1 - Non-Leap Year</h5>
+                <p>For an appointment on <b>April 4th, 2017</b>, you can pre-book the next appointment, using the ‘1
+                    year + 1
+                    day’ option.</p>
+                <img src="images/appointmentsImage1.png" class="faqImgMd">
+                <p>The appointment book opens (as people expect) to <b>April 5th, 2018</b>.</p>
+                <img src="images/appointmentsImage2.png" class="faqImgSm">
+                <h5>Scenario 2 - Leap Year</h5>
+                <p>Now, try to do the same, but for a period that includes the extra day we see in a leap year, February
+                    29th.</p>
+                <img src="images/appointmentsImage3.png" class="faqImgMd">
+                <p>Pre-booking from an appointment on <b>April 18th, 2019</b>, using the same ‘1 year + 1 day’ function.
+                    It brings
+                    us to <b>April 18th, 2020?</b></p>
+                <p id="appointments2"><b><i>This is not an error - this is correct.</i></b></p>
+                <p>‘1 year + 1 day’ should be interpreted as ‘365 days + 1 day’. When that extra day from a leap year is
+                    included in the mix, there appears to be a problem, but the calculation is correct. Trust the
+                    calculation.</p>
+                <p><a class="pageTop" href="">Return To Top of Page</a></p>
+            </div>
+            <div class="col"></div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col"></div>
+            <div class="col-10 support_content support_display">
+                <h1>Why is a Visual Fields appointment (410) not creating an Exam?</h1>
+                <p>Visual Field appointments are scheduled beside another appointment where the patient is seen by the
+                    doctor. This Visual Field appointment does not appear in the doctor’s schedule, tying up their
+                    resources.</p>
+                <p>In previous versions of the software, once both appointments are ‘Arrived’, the patient would appear
+                    twice in the pretest list - once for the regular appointment, and once for the Visual Fields
+                    appointment.</p>
+                <p>We received many calls, telling us that it’s confusing to see the same patient twice in the pretest
+                    list. Since a doctor only does one exam for a patient visit, these users tell us they do not know
+                    what
+                    to do with the other pretest item...it stays there for the day, making them think they need to do
+                    something with it.</p>
+                <p>So, a change was made as part of OD Office Pro 4.0. We now allow you to specify which services should
+                    appear in the pretest list, and which should not. As part of the update, we have automatically set
+                    410s
+                    to NOT show up in the pretest list.</p>
+                <p>If for some reason you would like 410s to show up in your pretest list, just go into Management,
+                    turn to the Service Codes page, select the 410 and check the Examine button (then press ‘Update’).
+                </p>
+                <img src="images/appointmentsImage4.png" class="faqImgMd">
+                <p id="appointments3"><b>Reminder:</b> Please, when upgrading, read through the Revision Notes. Any
+                    important changes that
+                    could
+                    affect the office will be detailed there, and could help you avoid these types of issues.</p>
+                <p><a class="pageTop" href="">Return To Top of Page</a></p>
+            </div>
+            <div class="col"></div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col"></div>
+            <div class="col-10 support_content support_display">
+                <h1>How do I change the templates for Call List E-Mails?</h1>
+                <h5>Call List E-Mail</h5>
+                <p>Note that there are two types of e-mails being sent to patients, regarding their appointments:</p>
+                <p><span>&#8226;</span>Appointment Reminder E-Mails</p>
+                <p><span>&#8226;</span>Call List E-Mails</p>
+                <h5>Appointment Reminder E-Mails</h5>
+                <p>This is a simple reminder coming from the appointment itself. With the appointment open, clicking
+                    ‘Send’ will send either a text message or e-mail to the patient, reminding them about the
+                    appointment. There is no template for this reminder - it is a simple statement of the appointment.
+                </p>
+                <h5>Call List E-Mails</h5>
+                <p>This e-mail is generated from the Appointment Book, as opposed to a single appointment. It is used to
+                    generate a list of patients that will be seen for the given day or week, and can be used to record
+                    how the patient was contacted, when confirming the appointment.</p>
+                <p>From this screen we can also generate e-mails, either individually (right-click on the patient and
+                    select ‘Send E-Mail Message…’)</p>
+                <img src="images/appointmentsImage5.png" class="faqImgMd">
+                <p>or as a group (click on the ‘E-Mail’ button at the bottom of the page).</p>
+                <img src="images/appointmentsImage6.png" class="faqImgMd">
+                <h5>Send E-Mail to a Group</h5>
+                <p>If you choose to send the e-mail as a group, the program will look through the patients in the list,
+                    and find those with a valid e-mail address. You will then get a confirmation box:</p>
+                <img src="images/appointmentsImage7.png" class="faqImgSm">
+                <p>If you choose to proceed, you’ll see the ‘E-Mail Confirmation Request’ window. It is from this window
+                    that you can access different templates, to either use or modify.</p>
+                <h5>‘E-Mail Confirmation Request’ window</h5>
+                <p>First, open up the ‘E-Mail Confirmation Request’ window, as shown above.</p>
+                <h6>If you have ZERO templates…</h6>
+                <p>...you will be shown the Template Selection window. Just hit the ‘Select’ button, and you’ll be
+                    brought back into the ‘E-Mail Confirmation Request’ window where you can start entering in your first
+                    Confirmation E-Mail template.</p>
+                <h6>If you have ONE template...</h6>
+                <p>...that template will be selected, and you’ll start immediately in the ‘E-Mail Confirmation Request’
+                    window, where you can choose to edit the existing template or send the e-mails out by clicking on the
+                    ‘Send’ button.</p>
+                <h6>If you have TWO OR MORE templates...</h6>
+                <p>...the list of templates will be presented to you. Select the template you’d like to use, and click
+                    the ‘Select’ button. You’ll go back to the ‘E-Mail Confirmation Request’ window, and you can continue
+                    as before.</p>
+                <h5>Working with Templates</h5>
+                <img src="images/appointmentsImage8.png" class="faqImgMd">
+                <p>To use the template as is, just click the ‘Send’ button.</p>
+                <p>To change the template for this time only, modify the template as needed, and click the ‘Send’
+                    button.</p>
+                <p>To change the template and keep the changes, modify the template as needed, right-click in template,
+                    and click the ‘Save message…’ option.</p>
+                <img src="images/appointmentsImage9.png" class="faqImgMd">
+                <p>The following selection window will appear:</p>
+                <img src="images/appointmentsImage10.png" class="faqImgSm">
+                <p>If you want to update the existing template, just hit the ‘Select’ button.</p>
+                <p>To save the changes as a new template, just change the name of the template in the text box to a new
+                    name before you hit the ‘Select’ button.</p>
+                <img src="images/appointmentsImage11.png" class="faqImgSm">
+                <p><a class="pageTop" href="">Return To Top of Page</a></p>
+            </div>
+            <div class="col"></div>
+        </div>
+    </div>
+
+    <!-- ****** -->
+    <!-- FOOTER -->
+    <!-- ****** -->
+    <div id="bottomText">
+        <div class="container" id="bottom_container">
+            <div class="row">
+                <div class="col-6">
+                    <h4>Contact</h4>
+                    <p><span class='fa fa-map-pin fa-fw'></span>Mailing Address<br> Spinnakerware Inc.<br>
+                        12 Drury Crt.<br>
+                        Ancaster, ON<br>
+                        L9G 3V7
+                    </p>
+                </div>
+                <div class="col-6">
+                    <p><span class='fa fa-phone fa-fw'></span>Toll-free
+                        <br><a href="tel:1(855)470-2556">1-855-470-2556</a> <br>Monday-Friday&nbsp;&nbsp;&nbsp;9AM-6PM
+                    </p>
+                    <p><span class='fa fa-question-circle fa-fw'></span>Support <a
+                            href="mailto:support@spinnakerware.com">support@spinnakerware.com</a></p>
+                    <p><span class='fa fa-at fa-fw'></span>E-mail
+                        <a href="mailto:info@spinnakerware.com">info@spinnakerware.com</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"
+        integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>

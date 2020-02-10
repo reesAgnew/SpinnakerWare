@@ -1,0 +1,181 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>OD Office Pro - SpinnakerWare Inc.</title>
+
+    <link rel="stylesheet" type="text/css" href="./css/spinnakerware.css">
+    <link rel="stylesheet" type="text/css" href="./css/fontAwesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:500,700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- ***HEADER*** -->
+
+    <nav class="navbar navbar-expand-md navbar-light fixed-top">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link txt" href="news.html">NEWS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link txt" href="features.html">FEATURES</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle txt2" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">FAQ</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item txt" href="appointments.html">Appointments</a>
+                        <a class="dropdown-item txt" href="college_of_optomestristsFAQ.html">College of Optometrists of
+                            Ontario</a>
+                        <a class="dropdown-item txt" href="devices.html">Devices</a>
+                        <a class="dropdown-item txt" href="exams.html">Exams</a>
+                        <a class="dropdown-item txt" href="management.html">Management</a>
+                        <a class="dropdown-item txt" href="patients.html">Patients</a>
+                        <a class="dropdown-item txt" href="printing.html">Printing</a>
+                        <a class="dropdown-item txt" href="security.html">Security</a>
+                        <a class="dropdown-item txt" href="setup.html">Setup</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="mx-auto order-0">
+            <a class="navbar-brand mx-auto" href="home.html"><img src="images\ODofficepro.jpg" id="logo"></a>
+        </div>
+        <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+            <ul class="navbar-nav ml-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link txt" href="support.html">SUPPORT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link txt" href="testimonials.html">TESTIMONIALS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link txt" href="pricing.html">PRICING</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ***CONTENT*** -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col"></div>
+            <div class="col-10 support_content support_display">
+                <h1>Security Maintenance</h1>
+                <h5>Overview</h5>
+                <p>Security for OD Office Pro is handled through the ‘Management’ function, available on the Launchpad.
+                    Go to the ‘Office’ tab, and then click the ‘Security’ button.</p>
+                <img src="images/security1.png" class="faqImgMd">
+                <p>There are two primary ways in which you can secure certain components of your data: <br>
+                    1. You can use component passwords <br>
+                    2. You can use User privileges.</p>
+                <h5>Component Passwords</h5>
+                <p>There are a number of checkboxes on this screen. To secure an associated component, click the box,
+                    and provide a password when prompted. Once this is done, that component (ie. Security, Sales
+                    Reports, etc.) will no longer be available to anyone without providing the password.</p>
+                <p>You’re basically restricting access to certain sections of OD Office Pro, but on a <i>function by
+                        function</i> basis, not on a <i>user</i> basis.</p>
+                <h5>Components</h5>
+                <p>Some interesting components, more fully explored.</p>
+                <table>
+                    <tr>
+                        <td class="table_tr_td">Patient Merge</td>
+                        <td class="table_tr_td">
+                            There may be instances where you’ve created two distinct patients for the same individual.
+                            This function can be used to pull those two patients into one. <br>
+                            Note that this cannot be undone, so use it cautiously.</td>
+                    </tr>
+                </table>
+                <h4>User Privileges</h4>
+                <p>There are actually three different kinds of users, all of which can be managed at the top right
+                    section of this same screen.
+                    <br><span>&#8226;</span>Basic
+                    <br><span>&#8226;</span>Secured
+                    <br><span>&#8226;</span>Administrator</p>
+                <h5>Basic</h5>
+                <p>A ‘Basic’ User is a simple non-secured User, typically used to restrict client login (ie. when the
+                    client computer is first started). This allows you to prevent a non-staff member from starting up
+                    and accessing the program.</p>
+                <p>This type of User is also used to track activity (ie. booking appointment, making an invoice, etc),
+                    as well as booking in and out with the Time Clock feature.</p>
+                <p>This is the most commonly-used User type in all offices. It does not provide any security (other than
+                    inital login)...that is typically managed with Component Passwords.</p>
+                <h5>Secured</h5>
+                <p>A Secured User is more typically used in a side-by-side office, where the optical store needs access
+                    to the appointment book, but nothing else...and they do not want to have to enter
+                    passwords for every single component.</p>
+                <p>With this type of User, certain privileges are defined when the User is created (ie. Patients and
+                    Appointments). In this way, when a Secured User logs in, these are the only 2 components that are
+                    available. And no other passwords are required.</p>
+                <h5>Administrator</h5>
+                <p>An Administrator is generally defined only for the doctor and possible office manager. This type of
+                    User has access to all features of the program, even if a Component Password has been set up.</p>
+                <p>We recommend that when first setting up the Users, that at least one Administrator is created first.
+                    You will then need to close the program, and start it up again, logging in as that Administrator.
+                </p>
+                <p>Once an Administrator has been created, the program will no longer permit other users to be created,
+                    unless the Administrator is the one logged in. We do this to prevent others from creating their own
+                    User account, and setting their own privileges.</p>
+                <h5>Force Login</h5>
+                <p>Finally, if you are going to fully use the User system, I suggest you click on the check box to
+                    ‘Force Login’ (this is just below the Users list). When checked, the program can not be accessed
+                    unless a valid User (of any type) logs in.</p>
+                <p>If left unchecked, it will permit "Anonymous login"...meaning anyone can start using the program by
+                    skipping the login step.</p>
+            </div>
+            <div class="col"></div>
+        </div>
+    </div>
+
+
+
+    <!-- ****** -->
+    <!-- FOOTER -->
+    <!-- ****** -->
+    <div id="bottomText">
+        <div class="container" id="bottom_container">
+            <div class="row">
+                <div class="col-6">
+                    <h4>Contact</h4>
+                    <p><span class='fa fa-map-pin fa-fw'></span>Mailing Address<br> Spinnakerware Inc.<br>
+                        12 Drury Crt.<br>
+                        Ancaster, ON<br>
+                        L9G 3V7
+                    </p>
+                </div>
+                <div class="col-6">
+                    <p><span class='fa fa-phone fa-fw'></span>Toll-free
+                        <br><a href="tel:1(855)470-2556">1-855-470-2556</a> <br>Monday-Friday&nbsp;&nbsp;&nbsp;9AM-6PM
+                    </p>
+                    <p><span class='fa fa-question-circle fa-fw'></span>Support <a
+                            href="mailto:support@spinnakerware.com">support@spinnakerware.com</a></p>
+                    <p><span class='fa fa-at fa-fw'></span>E-Mail
+                        <a href="mailto:info@spinnakerware.com">info@spinnakerware.com</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"
+        integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>

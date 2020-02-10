@@ -1,0 +1,481 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>OD Office Pro - SpinnakerWare Inc.</title>
+
+    <link rel="stylesheet" type="text/css" href="./css/spinnakerware.css">
+    <link rel="stylesheet" type="text/css" href="./css/fontAwesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:500,700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- ***HEADER*** -->
+
+    <nav class="navbar navbar-expand-md navbar-light fixed-top">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link txt" href="news.html">NEWS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link txt" href="features.html">FEATURES</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle txt2" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">FAQ</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item txt" href="appointments.html">Appointments</a>
+                        <a class="dropdown-item txt" href="college_of_optomestristsFAQ.html">College of Optometrists of
+                            Ontario</a>
+                        <a class="dropdown-item txt" href="devices.html">Devices</a>
+                        <a class="dropdown-item txt" href="exams.html">Exams</a>
+                        <a class="dropdown-item txt" href="management.html">Management</a>
+                        <a class="dropdown-item txt" href="patients.html">Patients</a>
+                        <a class="dropdown-item txt" href="printing.html">Printing</a>
+                        <a class="dropdown-item txt" href="security.html">Security</a>
+                        <a class="dropdown-item txt" href="setup.html">Setup</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="mx-auto order-0">
+            <a class="navbar-brand mx-auto" href="home.html"><img src="images\ODofficepro.jpg" id="logo"></a>
+        </div>
+        <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+            <ul class="navbar-nav ml-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link txt" href="support.html">SUPPORT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link txt" href="testimonials.html">TESTIMONIALS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link txt" href="pricing.html">PRICING</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ***CONTENT*** -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col"></div>
+            <div class="col-10 support_content support_display">
+                <h1 id="appointments1">Setup</h1>
+                <p><span>&#8226;</span><a href="#setup1">What are the hardware requirements for OD Office
+                        Pro?</a></p>
+                <p><span>&#8226;</span><a href="#setup2">Backup</a></p>
+                <p><span>&#8226;</span><a href="#setup3">How do I add a doctor's signature?</a></p>
+                <p id="setup1"><span>&#8226;</span><a href="#setup4">How do I set up an E-Mail Account, so I can send
+                        e-mail from within OD Office Pro?</a></p>
+                <p><span>&#8226;</span><a href="#setup5">What other software (add-ons) can be useful, for the
+                        office?</a></p>
+                <p><span>&#8226;</span><a href="#setup6">How do I add my logo to the top of my invoices?</a></p>
+            </div>
+            <div class="col"></div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col"></div>
+            <div class="col-10 support_content support_display">
+                <h1>Hardware Requirements</h1>
+                <h5>Server</h5>
+                <p>The system requirements for the server are minimal - the application is not heavy on resources.</p>
+                <table>
+                    <tr>
+                        <td class="table_tr_td">Operating System</td>
+                        <td class="table_tr_td">Windows 7 or newer <br>(including Windows Server flavours)</td>
+                    </tr>
+                    <tr>
+                        <td class="table_tr_td">Memory</td>
+                        <td class="table_tr_td">
+                            Suggest following Microsoft’s recommendations:<br>Windows 7 - 6GB<br>Windows 10 - 8GB</td>
+                    </tr>
+                    <tr>
+                        <td class="table_tr_td">Database</td>
+                        <td class="table_tr_td">PostgreSQL installed on the server, requiring no addition resources.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="table_tr_td">File Sharing ON</td>
+                        <td class="table_tr_td">The folder containing the OD Office Pro server needs to be shared, to
+                            facilitate software updates. <br>This share will ONLY be used for updates.</td>
+                    </tr>
+                    <tr>
+                        <td class="table_tr_td">Firewall DISABLED</td>
+                        <td class="table_tr_td">As this is a client/server application, there can be no firewall between
+                            the client and the server. <br>With a firewall in place, any TCP/IP messages from the client
+                            will be blocked.</td>
+                    </tr>
+                </table>
+                <h5>Client</h5>
+                <p>The hardware requirements for each client are similar, in that the recommendations made by Microsoft
+                    based on the OS are more than sufficient.</p>
+                <table>
+                    <tr>
+                        <td class="table_tr_td">Operating System</td>
+                        <td class="table_tr_td">Windows 7 or newer <br>(including Windows Server flavours)</td>
+                    </tr>
+                    <tr>
+                        <td class="table_tr_td">Memory</td>
+                        <td class="table_tr_td">
+                            Suggest following Microsoft’s recommendations:<br>Windows 7 - 6GB<br>Windows 10 - 8GB</td>
+                    </tr>
+                    <tr>
+                        <td class="table_tr_td">Number Of Clients</td>
+                        <td class="table_tr_td">Unlimited. <br> The purchase price if for the server - you can run any
+                            number of clients within the office as required.</td>
+                    </tr>
+                </table>
+                <h5>Other Applications</h5>
+                <table>
+                    <tr>
+                        <td class="table_tr_td">Adobe PDF Viewer</td>
+                        <td class="table_tr_td">Allows the user to open (read only) any PDF document.</td>
+                    </tr>
+                    <tr id="setup2">
+                        <td class="table_tr_td">Printer PDF Driver
+                        <td class="table_tr_td">
+                            Allows OD Office Pro to print directly to a PDF document. The driver (like any printer
+                            driver) needs to be installed on each client. <br>One we commonly use: <br><a
+                                href="http://www.cutepdf.com">Cute PDF</a></td>
+                    </tr>
+                </table>
+                <p><a class="pageTop" href="">Return To Top of Page</a></p>
+            </div>
+            <div class="col"></div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col"></div>
+            <div class="col-10 support_content support_display">
+                <h1>Backups</h1>
+                <h5>Overview</h5>
+                <p>There are two important concepts to consider, when keeping your data safe: <br>
+                    1.Understanding how OD Office Pro helps with backups, and critical files. <br>
+                    2.Planning on what to do with those backups and critical files in the case of a disaster.</p>
+                <h5>How OD Office Pro helps with backups</h5>
+                <p>OD Office Pro can be configured to take regular backups of the <b>database</b>, and place these
+                    backups in a place you specify. Any <b>attachments</b> you add to a patient are not part of this
+                    backup, so the attachments folder has to be backed up manually.</p>
+                <h5>Database</h5>
+                <p>You can check the location of your database backup file by going to Management, turning to the Office
+                    page, then clicking on DB Backup.</p>
+                <img src="images/setup1.jpg" class="faqImg">
+                <p>This will show you the configuration for generating that file. <br>
+                    <span>&#8226;</span>How often <br>
+                    <span>&#8226;</span>Which days <br>
+                    <span>&#8226;</span>Where the file is written</p>
+                <p><b>CAUTION</b> - It is a bad idea for the backup to be made on the same drive as OD Office Pro is
+                    installed. If that drive were to fail, you’d lose both the original database and any backups that
+                    were made.</p>
+                <p>Commonly, the backups are placed onto a removable hard drive.
+
+                    <br><span>&#8226;</span>With the drive attached, create a folder where you want the backups to go.
+                    <br><span>&#8226;</span>In the “Database Backup Schedule” window shown above, tell OD Office Pro
+                    about this directory.
+                    <br><span>&#8226;</span>Ensure that the ‘Enabled” checkbox is clicked.
+                    <br><span>&#8226;</span>Save these changes.
+                    <br><span>&#8226;</span>Test the process, by clicking “Backup Now”.</p>
+                <h5>Attachments</h5>
+                <p>Attachments are stored in a very specific directory on the server, and it is this entire directory
+                    that needs to be backed up and stored safely away:<br> c:\SpinnakerWare\ODOfficePro
+                    Server\Images.<br>If you are attaching photos/scans to patient records, you MUST backup this folder.
+                </p>
+                <h2>What your office needs to do</h2>
+                <p>Both the database backups and the attachments folder need to be copied somewhere safe.<br>Ideally,
+                    the backups should be secure, preferably offsite. That way, if anything bad should happen
+                    to the server or (worse) the office in general, you’ve got files that can be used to restore your
+                    office to a good state.</p>
+                <h3>One Possible Solution</h3>
+                <h5>Standard OD Office Pro Server Installation</h5>
+                <p><span>&#8226;</span>The database is in its standard configuration, and exists on the same drive OD
+                    Office Pro Server is
+                    installed on, in C:\SpinnakerWare.
+                    <br><span>&#8226;</span>The attachments are functioning, and are stored in
+                    C:\SpinnakerWare\ODOfficePro Server\Images.</p>
+                <h5>Target - Removable Drive</h5>
+                <p>A removable drive is commonly used, which can be detached and kept safe (fireproof safe) or taken off
+                    site as a means of disaster-recovery.</p>
+                <h5>Backup Database</h5>
+                <p><span>&#8226;</span>Using OD Office Pro Client, go the the ‘Management’ area from the Launchpad.
+                    <br><span>&#8226;</span>Go to the ‘Office’ tab, and click the ‘DB Backup’ button.
+                    <br><span>&#8226;</span>Ensure backups are ENABLED.
+                    <br><span>&#8226;</span>Ensure the LOCATION exists.
+                    <br><span>&#8226;</span>It is safest to back up to a different drive than the database itself lives
+                    on. In this case, set the location to ‘D:\ODOProBKUP\’.
+                    <br><span>&#8226;</span>Click the ‘Backup Now’ button, and go look for the file that was just
+                    created. Ensure that it can be found, and has a timestamp that matches when the backup was taken.
+                    <br><span>&#8226;</span>Make sure all of these changes have been saved.</p>
+                <h5>Backup Attachments</h5>
+                <p>OD Office Pro Server creates a folder for, and otherwise manages, all attachments, but taking a copy
+                    of this for backup purposes it outside of OD Office Pro’s area of responsibility. However, there
+                    exists many free and open programs that can help with backing up this folder.</p>
+                <p>Use any program that you wish, and configure it so that a copy is made and placed in the same folder
+                    as the backup of the database was made, ‘D:\ODOProBKUP\’.</p>
+                <h5>Single Folder containing the Critical Files</h5>
+                <p>Now we have a single directory, ‘D:\ODOProBKUP\’, that contains the most critical files you’ll need
+                    to rebuild your practice, from an EMR perspective.</p>
+                <h5 id="setup3">Cloud</h5>
+                <p>You could set up a cloud-based copy, so that any changes made to the files in the ‘D:\ODOProBKUP\’
+                    drive are replicated up into the cloud.</p>
+                <p><a class="pageTop" href="">Return To Top of Page</a></p>
+            </div>
+            <div class="col"></div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col"></div>
+            <div class="col-10 support_content support_display">
+                <h1>Adding a Signature Image</h1>
+                <h5>Overview</h5>
+                <p> A signature image can be capture, and then automatically added to prescription printouts.</p>
+                <p>To begin, first download and print out ‘signatureSheet.pdf’, available in the Support section of the
+                    website.</p>
+                <p>Next, write your signature on the sheet, making sure to remain completely within the black box. It is
+                    recommended that a dark pen, or even a fine-point sharpie be used, to ensure that the signature is
+                    dark enough.</p>
+                <p>Once the sheet has been signed, it must be scanned, using your scanner, to provide a JPEG image. You
+                    may
+                    have to adjust the setting on your scanner to have it output a JPEG.</p>
+                <p> Signature images are part of each doctor’s profile, so to import a signature image, go to the
+                    Management section of ODOfficePro, and make sure the Doctors page is showing.</p>
+                <p>Select the appropriate doctor, and then press the ‘Additional Info’ button.</p>
+                <img src="images/setup2.jpg" class="faqImgMd">
+                <img src="images/setup3.jpg" class="faqImgMd">
+                <p>Now click the ‘Signature Image’ button. If this is the first time a signature has been added for this
+                    doctor, then a prompt will appear, indicating that there is currently no image on file.</p>
+                <img src="images/setup4.jpg" class="faqImgSm">
+                <p>Click ‘Yes’ to import the signature.</p>
+                <p>A File Selection prompter will appear, requesting that the scan file be selected. Make sure to select
+                    the JPEG file created by your scanner.</p>
+                <p>A new window will now appear, showing a portion of the scanned page, with a blue box superimposed
+                    over top.</p>
+                <p>Use the + and - buttons to zoom out or in, and use the mouse, holding down the left mouse button, to
+                    move the scanned image around, until the signature is completely contained within the blue box.</p>
+                <img src="images/setup5.jpg" class="faqImgMd">
+                <p>Ideally, the signature should occupy as much of the blue box as possible, with none of the
+                    surrounding black box.</p>
+                <p>It is not always possible to exclude the black box, but that can be dealt with at the next stage.</p>
+                <p>Once the desired position and size of the signature image has been attained, click th ‘Grab’ button
+                    to capture the image within the blue box. A preview of the selection will be displayed.</p>
+                <img src="images/setup6.jpg" class="faqImgMd">
+                <p>The left and right mouse buttons can now be used to edit the image, including erasure (right-click)
+                    of unwanted marks.</p>
+                <img src="images/setup7.jpg" class="faqImgMd">
+                <p>When satisfied with the signature image, pressing the ‘Save’ button will save the image to the
+                    doctor's profile.</p>
+                <p>At any point in the future, returning to the Additional Doctor Information window for a doctor, the
+                    ‘Signature Image’ button can be used to edit the signature, or to delete it, to allow a new scan to
+                    be imported.</p>
+                <p>When a signature image has been created for a doctor, it will automatically appear on the signature
+                    line of Spectacles and Contacts prescription printouts.</p>
+                <img src="images/setup8.png" id="setup4">
+                <p><a class="pageTop" href="">Return To Top of Page</a></p>
+            </div>
+            <div class="col"></div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col"></div>
+            <div class="col-10 support_content support_display">
+                <h1>E-Mail Accounts</h1>
+                <p>Adding e-mail capabilities to OD Office Pro is as simple as providing the e-mail account information.
+                </p>
+                <h5>E-Mail</h5>
+                <p>From the Dashboard choose the MANAGEMENT button. <br>
+                    -Click the OFFICE tab and choose Email/SMS button on the right side <br>
+                    -Fill in your email information in the ‘Outgoing EMail’ section.</p>
+                <img src="images/setup9.jpg" class="faqImgMd">
+                <span id="setup5"></span>
+                <p><a class="pageTop" href="">Return To Top of Page</a></p>
+            </div>
+            <div class="col"></div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col"></div>
+            <div class="col-10 support_content support_display">
+                <h1>Add-Ons to ODO Office Pro</h1>
+                <h5>Barcode Scanners</h5>
+                <p>There are no recommendations for Barcode Scanners. Any scanner you can get, will work the same
+                    way...just get one you like, that has the right price. Since they all work exactly the same way,
+                    there is nothing that is better or worse.</p>
+                <h5>Cloud Backups</h5>
+                <p>While OD Office Pro do not provide backup services, the files that are generated in the backups we
+                    create can easily be saved off-site using cloud based services. We are huge fans of cloud-based file
+                    backups (like Dropbox, or Sync.com) for the ease-of-use and
+                    robustness.</p>
+                <h5>Using Sync.com</h5>
+                <p>This is the link for <a
+                        href="http://www.shareasale.com/r.cfm?b=732847&u=1433472&m=57377&urllink=&afftrack">Sync.com</a>.
+                </p>
+                <p>We like it because they automatically encrypt all uploaded data, and they are located in Toronto, so
+                    the data falls completely within Canadian borders, as per Ministry requirements. And their pricing
+                    is good.</p>
+                <p>They offer a small free service (5 Gigs), and this will be perfectly fine for offices that do not use
+                    image attachments...the database will NEVER require anywhere near this amount of memory.</p>
+                <p>For offices using attachments (which require more storage) <a
+                        href="http://www.shareasale.com/r.cfm?b=732847&u=1433472&m=57377&urllink=&afftrack">Sync.com</a>
+                    offers
+                    a "Personal Pro" package
+                    for $49 per year, which provides 500 Gigs. They have bigger options, but I cannot imagine any office
+                    needing more than that.</p>
+                <p>Their system works similar to Dropbox, and other cloud backup systems. Their software will create a
+                    folder on the computer. Anything that is placed into that folder, will then be automatically synced
+                    to their servers.</p>
+                <p>With the ODOfficePro database, we set it up so that the backup file gets written into their
+                    folder...which then takes the backup file, and immediately copies it out to their servers, giving
+                    the office a secure offsite backup, without any intervention required by the staff.</p>
+                <p>If you are interested, we will ask them to sign up for an account. Software and installation is by
+                    Sync.com They provide documentation and help with this. Once they are ready, they contact us, and I
+                    set up their ODOfficePro software to store the database backup file, as well as all of their
+                    attachments, into that <a
+                        href="http://www.shareasale.com/r.cfm?b=732847&u=1433472&m=57377&urllink=&afftrack">Sync.com</a>
+                    folder.</p>
+                <h3>Lab Interface</h3>
+                <h5>DVI's RxWizard</h5>
+                <p>To use <a href="https://www.dvirx.com/">DVI's RxWizard</a>, it must first be installed on one or more
+                    of the office's computers. We do not provide instructions as we are not involved in that process.
+                </p>
+                <p>Once this is installed, it is automatically available to be used, as long as the Lab has been
+                    configured.</p>
+                <p>If you have already setup <a href="https://www.dvirx.com/">DVI's RxWizard</a> software, then enter
+                    the webid where it says "ID". Nothing needs to be entered in the catalog section, as that will fill
+                    in automatically, when the catalog is updated.</p>
+                <p>As offices are creating Spectacle Orders, they can and should be reviewing these from the Orders
+                    window (press the Orders button on the main window).</p>
+                <p>If they have an order that is going to Zeiss (ie. one of the Zeiss labs was selected when the order
+                    was created), then they simply need to right-click on that order, and select Submit to Lab. This
+                    will launch RxWizard, and populate the prescription, and frame details.</p>
+                <p>Please note: the lens will need to be selected manually...this is due to the lens naming convention
+                    in the RxWizard program, and there does not appear to be anything we can do to get around this.</p>
+                <h5>PDF Printer Drivers</h5>
+                <p><a href="http://www.cutepdf.com/">CutePDF Writer</a> - A free PDF writer</p>
+                <p>Once installed, you will see an additional ‘printer’ that can be used within OD Office Pro.</p>
+                <h5>Texting Interface</h5>
+                <p>For texting, you can choose to…
+                    <br><span>&#8226;</span>Send reminders from the Call List
+                    <br><span>&#8226;</span>Send a direct text message to a patient from the Tools menu of the patient
+                    screen</p>
+                <p>The texting configuration is simple to add, and can be found in the Management section of the
+                    Launchpad. Click on the ‘Office’ tab, and then the ‘EMail/SMS’ button. To add SMS capabilities we
+                    need to specify the provider and their account information.</p>
+                <p>Currently, we have configured only one provider, based in Barrie. Please contact them to sign up for
+                    an account that will allow for texting from within OD Office Pro.</p>
+                <h5>Swift SMS Gateway Inc.</h5>
+                <p><a href="https://www.swiftsmsgateway.com/">Swift SMS Gateway</a>
+                    <br>65 Cedar Pointe Drive, Suite 225
+                    <br>Barrie, Ontario
+                    <br>L4N 9R3
+                    <br>Toll Free: <a href="tel:1-800-264-7141"> 1-800-264-7141</a></p>
+                <p>There are options to add a variety of services. <br>
+                    <a href="https://www.swiftsmsgateway.com/services">https://www.swiftsmsgateway.com/services</a></p>
+                <p>To set up Texting go to Dashboard then pick MANAGEMENT button.
+                    <br>-Click the OFFICE tab and choose Email/SMS button on right side.
+                    <br>-Choose Swift SMS Gateway as the provider.
+                    <br>-Enter the Account provided to you.</p>
+
+                <img src="images/setup9.jpg" class="faqImgSm">
+                <span id="setup6"></span>
+                <p><a class="pageTop" href="">Return To Top of Page</a></p>
+            </div>
+            <div class="col"></div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col"></div>
+            <div class="col-10 support_content support_display">
+                <h1>Adding a Logo to your Invoices</h1>
+                <h5>Prepare the Logo</h5>
+                <p><span>&#8226;</span>Ensure the logo is the correct size and rename it to “invoiceLogo.jpg”
+                    <br><span>&#8226;</span>Copy the logo file into the client program folder (by default,
+                    c:\SpinnakerWare\ODOfficePro Client) of each computer that will print logos.</p>
+                <h5>Adding the Logo</h5>
+                <p>
+                    Adding a logo to your invoices is part of the ‘Printing Preferences’ are of the Management section.
+                    From the Launchpad, select ‘Management’, and then go to the ‘Office’ tab. Within the Office tab,
+                    you’ll see a ‘Printing’ button.</p>
+                <img src="images/setup10.png" class="faqImgSm">
+                <p>Adding the logo to your invoice, once it’s been copied into each of the computers as described above,
+                    is as simple as selecting ‘Left’ in this section.</p>
+                <img src="images/setup11.png" class="faqImgSm">
+                <p>Press ‘Continue’ on the Printing Preferences page, and then ‘Apply’ on the Office Management page.
+                </p>
+                <p><i>NOTE: These changes will be picked up by each OD Office Pro Client, the next time they’re
+                        restarted. To refresh a client to pick up these changes, without restarting, is as simple as
+                        clicking the ‘Refresh Office’ menu item in the Tools menu of the Launchpad.</i></p>
+                <p><a class="pageTop" href="">Return To Top of Page</a></p>
+            </div>
+            <div class="col"></div>
+        </div>
+    </div>
+
+
+    <!-- ****** -->
+    <!-- FOOTER -->
+    <!-- ****** -->
+    <div id="bottomText">
+        <div class="container" id="bottom_container">
+            <div class="row">
+                <div class="col-6">
+                    <h4>Contact</h4>
+                    <p><span class='fa fa-map-pin fa-fw'></span>Mailing Address<br> Spinnakerware Inc.<br>
+                        12 Drury Crt.<br>
+                        Ancaster, ON<br>
+                        L9G 3V7
+                    </p>
+                </div>
+                <div class="col-6">
+                    <p><span class='fa fa-phone fa-fw'></span>Toll-free
+                        <br><a href="tel:1(855)470-2556">1-855-470-2556</a> <br>Monday-Friday&nbsp;&nbsp;&nbsp;9AM-6PM
+                    </p>
+                    <p><span class='fa fa-question-circle fa-fw'></span>Support <a
+                            href="mailto:support@spinnakerware.com">support@spinnakerware.com</a></p>
+                    <p><span class='fa fa-at fa-fw'></span>E-Mail
+                        <a href="mailto:info@spinnakerware.com">info@spinnakerware.com</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"
+        integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>
